@@ -1,0 +1,312 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  color: #926239;
+}
+
+.background {
+  background-image: url('website2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+}
+
+.my-name {
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  font-family: andale mono;
+  font-size: 30px;
+  color: #728da2;
+  transform: rotate(-14.5deg)
+
+}
+
+.job-title {
+  position: absolute;
+  top: 75%;
+  left: 60%;
+  font-family: andale mono;
+  font-size: 23px;
+  color: #728da2;
+  transform: rotate(-14.5deg)
+}
+
+.logos {
+  width: 36px;
+  padding-right: 25px
+}
+
+.links {
+  position: absolute;
+  top: 91%;
+  left: 32%;
+  transform: rotate(-14.5deg)
+}
+
+.scroll-unit {
+  position: absolute;
+  left: 50%;
+  bottom: 2%;
+  align-content: center;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.container-box {
+  height: 100vh;
+}
+
+.me {
+  padding-top: 20px;
+  background-color: #738F9B;
+  opacity: 40%;
+  height: 420px;
+  position: relative;
+  transform: translate(0px, 10px);
+}
+
+.about-me {
+  padding-top: 80px;
+  padding-left: 130px;
+  padding-right: 130px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.hello {
+  font-size: 20px;
+  color: #ffb457;
+  text-transform: uppercase;
+}
+
+.himashi {
+  font-size: 45px;
+  font-family: Georgia;
+  text-transform: uppercase;
+}
+
+.description {
+  padding-top: 20px;
+}
+
+a {
+  color: #ffb457;
+  text-decoration: underline;
+}
+
+.focus {
+ color: #ffb457; 
+}
+
+.email {
+  color: #738F9B;
+  padding-left: 0px;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 100px;
+
+}
+.back-to-top {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+#scrollup {
+  background:none;
+  border:none;
+  margin:0;
+  padding:0;
+  color: blue;
+  outline: none;
+  font-size: 11px;
+  color: #738F9B;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+
+@media (min-width : 320px) and (max-width : 480px) {
+  .background {
+   background-image: url('mobile4.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: fit;
+   height: 100vh; 
+   display: flex;
+   flex-direction: column;
+ }
+
+ .logos {
+  width: 40px;ß
+}
+
+.links {
+  top: 5%;
+  left: 27%;
+  transform: rotate(0deg)
+} 
+
+.my-name {
+  top: 55%;
+  left: 50%;
+  font-size: 15px;
+}
+
+.job-title {
+  top: 63%;
+  left: 57%;
+  font-size: 11px;
+}
+
+.me {
+  padding-top: 20px;
+  height: 370px;
+}
+
+.about-me {
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 13px;
+}
+.hello {
+  font-size: 20px;
+}
+
+.himashi {
+  font-size: 25px;
+}
+
+.description {
+  padding-top: 30px;
+}
+
+.email {
+  font-size: 20px;
+  top: 140px;
+}
+
+}
+
+@media (min-width : 481px) and (max-width : 681px) {
+  .links {
+    top: 90%;
+    left: 11%;
+  } 
+
+  .my-name {
+    top: 57%;
+    left: 45%;
+    font-size: 22px;
+
+  }
+
+  .job-title {
+    top: 75%;
+    left: 55%;
+    font-size: 15px;
+  }
+
+} 
+
+@media (min-width : 682px) and (max-width : 761px) {
+  .links {
+    top: 91%;
+    left: 12%;
+  } 
+
+  .my-name {
+    top: 57%;
+    left: 50%;
+    font-size: 28px;
+
+  }
+
+  .job-title {
+    top: 75%;
+    left: 60%;
+    font-size: 19px;
+  }
+}
+
+@media (min-width : 762px) and (max-width : 1006px) {
+  .links {
+    top: 89%;
+    left: 20%;
+  }
+
+  .my-name {
+    top: 57%;
+    left: 50%;
+    font-size: 28px;
+
+  }
+
+  .job-title {
+    top: 75%;
+    left: 60%;
+    font-size: 19px;
+
+  }
+
+}
+
+@media (min-width : 777px) and (max-width : 828px) {
+
+  .about-me {
+    padding-top: 70px;
+    padding-left: 110px;
+    padding-right: 110px;
+    font-size: 20px;
+  }
+
+  .himashi {
+    font-size: 30px;
+  }
+} 
+
+@media (min-width : 602px) and (max-width : 776px) {
+
+  .about-me { 
+    padding-top: 70px;
+    padding-left: 110px;
+    padding-right: 110px;
+    font-size: 16px;
+  }
+
+  .himashi {
+    font-size: 30px;
+  }
+} 
+
+@media (min-width : 481px) and (max-width : 601px) {
+  .himashi {
+    font-size: 25px;
+  }
+  .about-me {
+    padding-top: 70px;
+    padding-left: 110px;
+    padding-right: 110px;
+    font-size: 16px;
+  }
+
+  .me {
+    height: 440px;
+  }
+
+}
